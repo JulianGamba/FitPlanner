@@ -1,0 +1,118 @@
+# Ignorar el entorno virtual
+env/
+venv/
+
+# Ignorar dependencias de Python
+*.pyc
+*.pyo
+*.pyd
+*.whl
+__pycache__/
+
+# Archivos de configuración del entorno
+.env
+*.env
+
+# Configuración de bases de datos locales
+db.sqlite3
+db.sqlite3-journal
+*.db
+*.sqlite3
+
+# Configuraciones de IDEs
+.vscode/
+.idea/
+
+# Archivos estáticos generados
+/staticfiles/
+/media/
+
+# Archivos de migraciones
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__init__.py
+
+# Archivos de logs
+*.log
+*.out
+*.err
+
+# Ignorar archivos temporales de desarrollo
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+*.save
+*.retry
+
+# Archivos de señales generados automáticamente
+signals_generated/
+generated_signals/
+signals/
+
+# Archivos de cobertura de tests
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+
+# Archivos relacionados con Docker
+docker-compose.override.yml
+.dockerignore
+
+# Archivos de caches de tests o build
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.sqlite
+
+# Archivos creados por build o packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos __init__.py (ignorar si son innecesarios)
+*/__init__.py
+
+# Archivos de bases de datos generados localmente
+*.db
+*.sql
+*.sqlite3
+.dump
+
+# Ignorar archivos relacionados con node y npm (si es aplicable)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración de distribución (pueden ser opcionales)
+*.manifest
+*.spec
+
+# Archivos de ruedas
+*.wheel
+
+# Ignorar archivos de desarrollo local
+*.local
+*.cfg
+
+# Archivos de tests generados por Django o pytest
+tests/__pycache__/
+tests/migrations/
+
+# Ignorar configuraciones locales de aplicaciones
+local_settings.py
+settings_local.py
+.envrc
+
+# Archivos de caches de otros sistemas (opcional)
+*.DS_Store
+Thumbs.db
